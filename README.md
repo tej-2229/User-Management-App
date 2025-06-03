@@ -33,25 +33,25 @@ A Flutter application demonstrating clean architecture using the BLoC pattern, i
 
 ## Project Structure
 lib/
-│
-├── main.dart
-├── src/
-│   ├── app.dart
-│   ├── bloc/                  # BLoC state management
-│   │   ├── user/
-│   │   │   ├── user_bloc.dart
-│   │   │   ├── user_event.dart
-│   │   │   └── user_state.dart
-│   ├── data/                  # Repositories and data providers
-│   │   ├── repositories/
-│   │   │   └── user_repository.dart
-│   ├── models/                # Data models
-│   │   ├── user_model.dart
-│   │   ├── post_model.dart
-│   │   └── todo_model.dart
-│   └── screens/               # UI screens
-│       ├── user_list_screen.dart
-│       └── user_detail_screen.dart
+ - main.dart
+ - app.dart
+ - bloc_observer.dart
+ - features/
+   - posts/
+     - data/
+       post.dart
+       todo.dart  
+   - users/
+     - bloc/
+       - user_block
+       - user_event
+       - user_state
+     - data/
+       - user_model.dart
+       - user_repository.dart
+     - screens/
+       - user_list_screen.dart
+       - user_detail_screen.dart
 
 ## Architecture Explanation
 BLoC (Business Logic Component)
