@@ -13,16 +13,16 @@ A Flutter application demonstrating clean architecture using the BLoC pattern, i
 
 ## Setup Instructions
 1. Clone the repository
-   git clone https://github.com/tej-2229/flutter_bloc_user_explorer.git
+   https://github.com/tej-2229/User-Management-App.git
    cd flutter_bloc_user_explorer
 
-2. Install dependencies
+3. Install dependencies
    flutter pub get
 
-3. Run the app
+4. Run the app
    flutter run
 
-4. (Optional): If you're running on a device/emulator for the first time, ensure it's properly configured via:
+5. (Optional): If you're running on a device/emulator for the first time, ensure it's properly configured via:
    flutter doctor
 
 ## Dependencies
